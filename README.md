@@ -9,7 +9,8 @@ by Uli Tessel with some additional features and bug fixes.
 
 ## Installation
 
-Copy *svg_import.rb* file and *svg_import* folder to your plugins folder. On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.
+Copy *svg_import.rb* file and *svg_import* folder to your plugins folder.<br>
+On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.<br>
 On a Mac, *~/Library/Application Support/SketchUp #/SketchUp/Plugins*.
 
 All dependencies are already included.
@@ -70,7 +71,7 @@ the full terms.
 ## History
 
 **0.6**
-Adds compatibility with Smoove from Sandbox Tools (Samuel Tallet-Sabathé)
+Adds compatibility with Smoove from Sandbox Tools (Samuel Tallet)
 * Includes all dependencies
 * Displays more info in extension manager
 
