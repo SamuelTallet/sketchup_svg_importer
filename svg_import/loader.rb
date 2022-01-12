@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-#  Copyright (C) 2018 Samuel Tallet-Sabathé
+#  Copyright (C) 2018 Samuel Tallet
 #  Copyright (C) 2013 Spencer Bliven (spencer@bliven.us)
 #  Copyright (C) 2008 Uli Tessel (utessel@gmx.de)
 #

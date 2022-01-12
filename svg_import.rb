@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-#  Copyright (C) 2018 Samuel Tallet-Sabathé
+#  Copyright (C) 2018 Samuel Tallet
 #  Copyright (C) 2013 Spencer Bliven (spencer@bliven.us)
 #  Copyright (C) 2008 Uli Tessel (utessel@gmx.de)
 #
@@ -50,7 +50,7 @@ module SVGImport
 	# See: svg_import/loader.rb
 	
 	extension.version = '0.6'
-	extension.creator = 'Samuel Tallet-Sabathé, Spencer Bliven, Uli Tessel'
+	extension.creator = 'Samuel Tallet, Spencer Bliven, Uli Tessel'
 	extension.copyright = '2018-2008 ' + extension.creator
 	extension.description = 'Use it to import simple SVG images into SketchUp, where they can be extruded into 3D and further modified.'
 
