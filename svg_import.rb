@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-#  Copyright (C) 2018 Samuel Tallet
+#  Copyright (C) 2018-2024 Samuel Tallet
 #  Copyright (C) 2013 Spencer Bliven (spencer@bliven.us)
 #  Copyright (C) 2008 Uli Tessel (utessel@gmx.de)
 #
@@ -17,7 +17,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #-----------------------------------------------------------------------------
 #
-#  SVG File Import for Inkscape files (Version 0.6)
+#  SVG File Import for Inkscape files (Version 0.7)
 #
 #  This script allows to use Inkscape to create 2D images (for example by
 #  using Inkscapes bitmap vectorizer) and to create SketchUp group(s)
@@ -49,9 +49,9 @@ module SVGImport
 	extension = SketchupExtension.new('SVG Import', File.join(PATH, 'loader'))
 	# See: svg_import/loader.rb
 	
-	extension.version = '0.6'
-	extension.creator = 'Samuel Tallet, Spencer Bliven, Uli Tessel'
-	extension.copyright = '2018-2008 ' + extension.creator
+	extension.version = '0.7'
+	extension.creator = 'Uli Tessel, Spencer Bliven, Samuel Tallet'
+	extension.copyright = '2008-2024 ' + extension.creator
 	extension.description = 'Use it to import simple SVG images into SketchUp, where they can be extruded into 3D and further modified.'
 
 	if Sketchup.register_extension(extension, true)

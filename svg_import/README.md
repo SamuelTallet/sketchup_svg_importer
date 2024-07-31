@@ -1,7 +1,7 @@
 SketchUp SVG Importer
 =====================
 
-This is a plugin for SketchUp versions 6+. Use it to import simple SVG images
+This is a plugin for SketchUp versions 2014+. Use it to import simple SVG images
 into SketchUp, where they can be extruded into 3D and further modified.
 
 This version extends the [excellent script](http://rhin.crai.archi.fr/rld/plugin_details.php?id=435)
@@ -9,8 +9,7 @@ by Uli Tessel with some additional features and bug fixes.
 
 ## Installation
 
-Copy *svg_import.rb* file and *svg_import* folder to your plugins folder.<br>
-On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.<br>
+Copy *svg_import.rb* file and *svg_import* folder to your plugins folder. On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.
 On a Mac, *~/Library/Application Support/SketchUp #/SketchUp/Plugins*.
 
 All dependencies are already included.
@@ -42,7 +41,7 @@ svg output
 * Convert all objects to paths before exporting (text, polygons, etc)
 * Save files as 'Plain SVG' ('Simple SVG' in some locales)
 
-(Suggested by Sketchucation user [TIG](http://sketchucation.com/forums/viewtopic.php?f=180&t=13475))
+(Suggested by SketchUcation user [TIG](http://sketchucation.com/forums/viewtopic.php?f=180&t=13475))
 
 ## Known Bugs/Missing features
 
@@ -70,13 +69,17 @@ the full terms.
 
 ## History
 
+**0.7**
+Support for SketchUp 2024 (Samuel Tallet)
+* Ruby 3.2 compatibility
+
 **0.6**
-Adds compatibility with Smoove from Sandbox Tools (Samuel Tallet)
-* Includes all dependencies
-* Displays more info in extension manager
+Compatibility with Sandbox Tools (Samuel Tallet)
+* Include all dependencies
+* Display more info in extension manager
 
 **0.5**
-Support for SketchUp 2014
+Support for SketchUp 2014 (Spencer Bliven)
 * Ruby 2.0 compatibility
 * Minor bug fixes
 
@@ -87,5 +90,3 @@ SVG compatibility improvements (Spencer Bliven)
 
 **0-0.3**
 Copyright (C) 2008 Uli Tessel (utessel@gmx.de)
-
-

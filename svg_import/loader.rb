@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-#  Copyright (C) 2018 Samuel Tallet
+#  Copyright (C) 2018-2024 Samuel Tallet
 #  Copyright (C) 2013 Spencer Bliven (spencer@bliven.us)
 #  Copyright (C) 2008 Uli Tessel (utessel@gmx.de)
 #
@@ -17,7 +17,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #-----------------------------------------------------------------------------
 #
-#  SVG File Import for Inkscape files (Version 0.6)
+#  SVG File Import for Inkscape files (Version 0.7)
 #
 #  This script allows to use Inkscape to create 2D images (for example by
 #  using Inkscapes bitmap vectorizer) and to create Sketchup group(s)
@@ -46,7 +46,6 @@ module SVGImport
   require File.join(LIB_PATH, 'bezier.rb')
   require File.join(LIB_PATH, 'rexml/parsers/pullparser.rb')
   require File.join(LIB_PATH, 'forwardable.rb')
-  require File.join(LIB_PATH, 'set.rb')
 
   #----------------------------------------------------------------------------
   class SVGFileImport
