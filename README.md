@@ -9,10 +9,8 @@ by Uli Tessel with some additional features and bug fixes.
 
 ## Installation
 
-Copy *source/svg_import.rb* file and *source/svg_import* folder to your plugins folder. On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.
-On a Mac, *~/Library/Application Support/SketchUp #/SketchUp/Plugins*.
-
-All dependencies are already included.
+* Download attached _sketchup_svg_importer*.rbz_ file in [Releases](https://github.com/SamuelTallet/sketchup_svg_importer/releases).
+* Install downloaded _*.rbz_ file with SketchUp extension manager.
 
 ## Usage
 
