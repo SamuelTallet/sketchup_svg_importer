@@ -50,10 +50,6 @@ requests can be made on
 * Additional SVG Types
   * line, polyline, polygon, text
   * Additional path commands (arc, quadratic bezier, etc)
-* Localization
-  * The 'french' branch contains french translations of some messages. If some
-    french speaker would be interested in updating this branch with the latest
-    features it would be great.
 * 3D-specific attributes
   * It might be interesting to use some attributes (like the color of a stroke) to
     control the Z-Value. With this common trick it is possible to use Inkscape
