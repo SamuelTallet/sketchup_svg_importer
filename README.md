@@ -9,7 +9,7 @@ by Uli Tessel with some additional features and bug fixes.
 
 ## Installation
 
-Copy *svg_import.rb* file and *svg_import* folder to your plugins folder. On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.
+Copy *source/svg_import.rb* file and *source/svg_import* folder to your plugins folder. On Windows, this will be *%APPDATA%\SketchUp\SketchUp #\SketchUp\Plugins*.
 On a Mac, *~/Library/Application Support/SketchUp #/SketchUp/Plugins*.
 
 All dependencies are already included.
